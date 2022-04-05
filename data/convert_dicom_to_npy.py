@@ -5,6 +5,7 @@ import pydicom
 
 
 def save_dataset(args):
+    # reference:https://github.com/SSinyu/RED-CNN
     if not os.path.exists(args.save_path):
         os.makedirs(args.save_path)
         print('Create path : {}'.format(args.save_path))
