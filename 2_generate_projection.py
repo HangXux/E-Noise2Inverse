@@ -33,7 +33,7 @@ for file in tqdm(range(len(clean_file))):
     rec = astra.data2d.get(rec_id)
 
     # save clean data
-    np.save(os.path.join("data", "projection_clean_full", "proj_clean_" + str(file)), sino)
-    np.save(os.path.join("data", "rec_clean_full", "rec_clean_" + str(file)), rec)
+    np.save(os.path.join("data", "projection_clean", "proj_clean_" + str(file)), sino)
+    np.save(os.path.join("data", "rec_clean", "rec_clean_" + str(file)), rec)
 
 
