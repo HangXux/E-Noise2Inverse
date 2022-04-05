@@ -76,7 +76,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
 
     parser.add_argument('--data_path', type=str, default='./Training_Image_Data/')
-    parser.add_argument('--save_path', type=str, default='./npy_img/')
+    parser.add_argument('--save_path', type=str, default='./train_data/')
 
     parser.add_argument('--test_patient', type=str, default='L506')
     parser.add_argument('--mm', type=int, default=3)
