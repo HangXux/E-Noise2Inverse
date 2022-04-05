@@ -1,4 +1,4 @@
-# Dataset
+# Low dose CT data
 The 2016 NIH-AAPM-Mayo Clinic Low Dose CT Grand Challenge by Mayo Clinic.
 https://www.aapm.org/GrandChallenge/LowDoseCT/.
 
