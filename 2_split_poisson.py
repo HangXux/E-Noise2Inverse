@@ -44,4 +44,3 @@ for file in tqdm(range(len(proj_file))):
 
         # save noisy sub-reconstructions
         np.save(os.path.join("data", "rec_split_poisson", str(i), "img_" + str(file)), rec)
-
