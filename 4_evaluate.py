@@ -70,4 +70,3 @@ print(f"PSNR:  {psnr:5.2f}")
 print(f"SSIM:  {ssim:5.2f}")
 
 
-
