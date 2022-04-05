@@ -6,7 +6,7 @@ import astra
 
 
 # read clean projections
-proj_file = sorted(glob.glob(os.path.join("data", "projection_clean_full", "*.npy")))
+proj_file = sorted(glob.glob(os.path.join("data", "projection_clean", "*.npy")))
 
 # settings of photon counts, number of splits, number of angles
 I0 = np.power(10, 4)
