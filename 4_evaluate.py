@@ -17,7 +17,7 @@ batch_size = num_splits
 
 
 input_dir = Path("data/test_split_poisson")
-weights_path = Path("weights//weights.torch")
+weights_path = Path("weights/weights.torch")
 output_dir = Path("denoised")
 output_dir.mkdir(exist_ok=True)
 
