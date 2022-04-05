@@ -36,4 +36,3 @@ for file in tqdm(range(len(clean_file))):
     np.save(os.path.join("data", "projection_clean", "proj_clean_" + str(file)), sino)
     np.save(os.path.join("data", "rec_clean", "rec_clean_" + str(file)), rec)
 
-
