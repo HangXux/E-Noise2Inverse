@@ -29,7 +29,7 @@ print(train_ds[0][1].shape)
 
 dl = DataLoader(train_ds, batch_size, shuffle=True)
 
-net = DnCNN(bias=True).cuda()
+net = DnCNN(bias=False).cuda()
 optimizer = torch.optim.Adam(net.parameters())
 
 output_dir.mkdir(exist_ok=True)
