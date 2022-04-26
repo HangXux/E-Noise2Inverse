@@ -33,7 +33,8 @@ for file in tqdm(range(len(proj_file))):
         proj_id = astra.create_projector('cuda', proj_geom, vol_geom)
         sub_proj_id = astra.data2d.create('-sino', proj_geom, sub_proj)
         rec_id = astra.data2d.create('-vol', vol_geom)
-
+        
+        # reconstruct sub-projections
         cfg = astra.astra_dict('FBP_CUDA')
         cfg['ReconstructionDataId'] = rec_id
         cfg['ProjectionDataId'] = sub_proj_id
