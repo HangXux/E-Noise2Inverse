@@ -4,7 +4,6 @@ import os
 from tqdm import tqdm
 import astra
 
-
 # read clean projections
 proj_file = sorted(glob.glob(os.path.join("data", "projection_clean", "*.npy")))
 
